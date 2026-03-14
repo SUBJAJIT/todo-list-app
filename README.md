@@ -21,7 +21,7 @@ https://subhajit.github.io/todo-list-app/
 - JavaScript
 
 ## 📷 Screenshot
-(Add screenshot here later)
+![Todo App Screenshot](Screenshot.png)
 
 ## 👨‍💻 Author
 Subhajit
