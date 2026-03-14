@@ -187,3 +187,54 @@ transform:translateY(0);
 width:90%;
 }
 }
+
+/* Dark Mode Background */
+body.dark{
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:#e2e8f0;
+}
+
+/* Dark container */
+body.dark .container{
+background:rgba(30,41,59,0.7);
+backdrop-filter:blur(12px);
+color:#e2e8f0;
+box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* Todo items in dark mode */
+body.dark #todo-list li{
+color:#e2e8f0;
+border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+/* Input field */
+body.dark #todo-input{
+background:#1e293b;
+color:white;
+}
+
+/* Filter buttons */
+body.dark .filter-btn{
+background:#334155;
+color:white;
+}
+
+body.dark .filter-btn.active{
+background:#6366f1;
+}
+
+#theme-toggle{
+position:absolute;
+top:20px;
+right:25px;
+background:none;
+border:none;
+cursor:pointer;
+font-size:24px;
+transition:transform 0.2s ease;
+}
+
+#theme-toggle:hover{
+transform:scale(1.25);
+}
